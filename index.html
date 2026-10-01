@@ -1,3 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سكربت انصاري بدون تشفير 🤣</title>
+    <style>
+        /* خلفية الماء المتحركة */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(270deg, #001233, #005c99, #0088cc, #005c99);
+            background-size: 600% 600%;
+            animation: waterFlow 10s ease infinite;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        @keyframes waterFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* تأثير زجاجي فخم للمربع */
+        .container {
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            padding: 40px;
+            width: 90%;
+            max-width: 800px;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            color: #4ddbff;
+            text-shadow: 0 0 10px rgba(77, 219, 255, 0.5);
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        /* صندوق السكربت */
+        .code-box {
+            background: #0d1117;
+            border-left: 4px solid #4ddbff;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: left;
+            direction: ltr;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            font-family: monospace;
+            color: #00ff00;
+            font-size: 14px;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* زر النسخ */
+        .copy-btn {
+            background: linear-gradient(45deg, #0074D9, #00aaff);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 116, 217, 0.4);
+        }
+
+        .copy-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0, 170, 255, 0.6);
+        }
+
+        .copy-btn:active {
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>سكربت انصاري بدون تشفير 🤣</h1>
+        
+        <div class="code-box" id="scriptCode">
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "سكربت انصاري-يامن من افصل سكربتات🔥", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
@@ -421,7 +518,7 @@ local EmojiCenter = Instance.new("TextLabel")
 EmojiCenter.Size = UDim2.new(0, 200, 0, 80)
 EmojiCenter.Position = UDim2.new(0.5, -100, 0.32, -40)
 EmojiCenter.BackgroundTransparency = 1
-EmojiCenter.Text = "🏳️‍🌈"
+EmojiCenter.Text = "🏳️️‍🌈"
 EmojiCenter.TextSize = 65
 EmojiCenter.TextTransparency = 0.2
 EmojiCenter.Parent = MainFrame
@@ -843,4 +940,33 @@ Tab7:AddButton({
 })
 
 local s=[[local p=game.Players.LocalPlayer;local g=p:WaitForChild("PlayerGui");local w=game:GetService("Workspace");local l=game:GetService("Lighting");local u=game:GetService("UserInputService");local v=true;local sg=Instance.new("ScreenGui",g);sg.Name="ClientAndNortn";local f=Instance.new("Frame",sg);f.Size=UDim2.new(0,270,0,200);f.Position=UDim2.new(0.05,0,0.3,0);f.BackgroundColor3=Color3.fromRGB(30,30,30);f.BackgroundTransparency=0.1;local c=Instance.new("UICorner",f);c.CornerRadius=UDim.new(0,8);local t=Instance.new("TextLabel",f);t.Size=UDim2.new(1,0,0,30);t.BackgroundTransparency=1;t.Text="Client and Nortn";t.Font=Enum.Font.GothamBold;t.TextSize=20;t.TextColor3=Color3.new(1,1,1);local b=Instance.new("TextLabel",f);b.Size=UDim2.new(1,-10,0,25);b.Position=UDim2.new(0,5,0,35);b.BackgroundTransparency=1;b.Text="  كسم توجي و كلانه";b.Font=Enum.Font.Gotham;b.TextSize=14;b.TextColor3=Color3.new(0.78,0.78,0.78);b.TextWrapped=true;local function btn(t,y,fn)local btn=Instance.new("TextButton",f);btn.Size=UDim2.new(0.8,0,0,35);btn.Position=UDim2.new(0.1,0,y,0);btn.BackgroundColor3=Color3.new(0.235,0.235,0.235);btn.TextColor3=Color3.new(1,1,1);btn.Font=Enum.Font.Gotham;btn.TextSize=16;btn.Text=t;local bc=Instance.new("UICorner",btn);bc.CornerRadius=UDim.new(0,6);btn.MouseButton1Click:Connect(fn);end;btn("تقليل استهلاك النت",0.35,function()print("🔵 تقليل استهلاك النت...")settings().Network.IncomingReplicationLag=0.1;settings().Physics.AllowSleep=true;settings().Rendering.QualityLevel=Enum.QualityLevel.Level02;end);btn("تقليل الضغط (AntiLag)",0.55,function()print("🟢 تشغيل AntiLag...")l.GlobalShadows=false;l.FogEnd=100000;l.Brightness=2;for _,v in pairs(w:GetDescendants())do if v:IsA("ParticleEmitter")or v:IsA("Trail")or v:IsA("Smoke")then v.Enabled=false elseif v:IsA("PointLight")or v:IsA("SpotLight")or v:IsA("SurfaceLight")then v.Enabled=false end end end);btn("تسريع النت",0.75,function()print("🟣 تسريع النت...")settings().Network.IncomingReplicationLag=0;settings().Physics.ThrottleAdjustTime=0.5;settings().Network.ExperimentalPhysicsThrottleEnabled=true;end);local function tog()v=not v;f.Visible=v end;u.InputBegan:Connect(function(i,t)if not t and i.KeyCode==Enum.KeyCode.G then tog()end end)]]
-pcall(function() loadstring(s)() end)
+pcall(function() loadstring(s)() end)</div>
+
+        <button class="copy-btn" onclick="copyCode()">نسخ السكربت</button>
+    </div>
+
+    <script>
+        function copyCode() {
+            // أخذ الكود من الصندوق
+            var codeText = document.getElementById("scriptCode").innerText;
+            
+            // نسخ الكود للحافظة
+            navigator.clipboard.writeText(codeText).then(function() {
+                // تغيير النص عشان يعرف أنه انتسخ
+                var btn = document.querySelector('.copy-btn');
+                btn.innerHTML = "✅ تم النسخ بنجاح!";
+                btn.style.background = "linear-gradient(45deg, #28a745, #34ce57)";
+                
+                // إرجاع الزر لشكله الطبيعي بعد 3 ثواني
+                setTimeout(function() {
+                    btn.innerHTML = "نسخ السكربت";
+                    btn.style.background = "linear-gradient(45deg, #0074D9, #00aaff)";
+                }, 3000);
+            }).catch(function(err) {
+                alert("صار خطأ بالنسخ! انسخه يدوي.");
+            });
+        }
+    </script>
+
+</body>
+</html>
